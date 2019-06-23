@@ -28,7 +28,7 @@ a{
 }
 .btn{
 	font-family:'Montserrat';
-	font-weight:700;
+	font-weight:400;
 }
 
 /* Site container width */
@@ -549,9 +549,12 @@ iframe{
      	background-position: 55% 0%;
      }
 
-
      #form-1 {
      	padding: 5px 25px;
+     }
+
+     .navbar-nav>li>a { // mobile nav margin left
+     	margin-left: 10px;
      }
 
 }
