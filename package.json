@@ -1,0 +1,30 @@
+{
+  "name": "pill-beacon-site",
+  "version": "1.0.0",
+  "description": "A website for Pill Beacon",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pill-beacon/pill-beacon-site.git"
+  },
+  "author": "Nick Wong",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "require-dir": "^1.2.0",
+    "run-sequence": "^1.1.5"
+  },
+  "bugs": {
+    "url": "https://github.com/pill-beacon/pill-beacon-site/issues"
+  },
+  "homepage": "https://github.com/pill-beacon/pill-beacon-site#readme"
+}
