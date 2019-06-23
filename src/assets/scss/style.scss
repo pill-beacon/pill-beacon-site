@@ -290,8 +290,14 @@ a{
 	background-color: rgba(0,0,0,.5);
 	width: 26px;
 }
- /* Inverted navbar */
 
+#navSignUp {
+	background-color: #F2C14E;
+	border-radius: 25px;
+	color: white !important;
+	
+}
+ /* Inverted navbar */
 .nav-invert .navbar .nav{
 	float:left;
 }
