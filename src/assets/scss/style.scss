@@ -233,6 +233,15 @@ a{
 		font-family: "Open Sans";
 		font-weight: 800;
 		font-size: 48px;
+		width: 65%;
+		line-height: 60px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	h5 {
+		font-family: 'Montserrat';
+		font-weight: 800;
 	}
 	a {
 		padding: 10px 30px;
@@ -555,6 +564,15 @@ iframe{
 
      .navbar-nav>li>a { // mobile nav margin left
      	margin-left: 10px;
+     }
+
+     #bloc-9 {
+     	h1 {
+     		width: 100%;
+     	}
+     	h5 {
+     		line-height: 30px;
+     	}
      }
 
 }
