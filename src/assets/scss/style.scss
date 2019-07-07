@@ -200,6 +200,7 @@ a{
 	font-family: "Montserrat";
 	font-weight: 400;
 	line-height: 40px;
+	padding: 0px 40px;
 }
 #bloc-3 h1{
 	font-size: 48px;
@@ -212,6 +213,12 @@ a{
 	font-weight: 400;
 	line-height: 40px;
 }
+#bloc-4 h1{
+	font-size: 48px;
+	font-family: "Open Sans";
+	font-weight: 800;
+}
+
 #bloc-5 h1{
 	font-family: "Open Sans";
 	font-weight: 800;
@@ -461,6 +468,63 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Cool timeline
+-------------------------------------------------------------- */
+
+.timeline {
+	position: relative;
+	margin-top: 50px;
+}
+
+.timeline:before {
+	content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 2px;
+    background: #444d56;
+}
+
+.timeline span {
+	text-align: left;
+	display: block;
+}
+
+.timeline ul  {
+	padding-left: 8px;
+	list-style: none;
+}
+
+.timeline-header:before {
+	content: '';
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 3px solid #444d56;
+    border-radius: 100%;
+    background-clip: padding-box;
+    margin-left: -16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.timeline-header {
+	color:rgba(255,255,255,.9);
+	font-weight: 600;
+	font-size: 36px;
+	font-family: 'Open Sans';
+}
+
+.timeline-info {
+	color: rgba(0,0,0,.5);
+	margin-left: 24px;
+	font-size: 20px;
+	font-family: 'Montserrat';
+}
+
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -573,6 +637,10 @@ iframe{
      	h5 {
      		line-height: 30px;
      	}
+     }
+
+     .timeline {
+     	margin-left: 20px;
      }
 
 }

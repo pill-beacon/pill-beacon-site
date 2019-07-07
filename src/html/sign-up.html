@@ -21,9 +21,9 @@
 
     <script src="../assets/js/jquery-2.1.0.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
-<!--     <script src="../assets/js/blocs.js"></script>
+<!--     <script src="../assets/js/blocs.js"></script> -->
     <script src='../assets/js/jqBootstrapValidation.js'></script>
-	<script src='../assets/js/formHandler.js'></script> -->
+	<script src='../assets/js/formHandler.js'></script>
     <title>Sign Up | Pill Beacon</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58343903-11"></script>
@@ -106,16 +106,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<form id="form-1">
 					<div class="form-group">
 						<label>
-							Name
+							Caregiver's Name
 						</label>
-						<input id="name" class="form-control" />
+						<input id="caregiver_name" name="caregiver_name" class="form-control" />
 					</div>
 					<div class="form-group">
 						<label>
-							Email
+							Caregiver's Email
 						</label>
-						<input id="email" class="form-control" type="email" />
+						<input id="caregiver_email" name="caregiver_email" class="form-control" type="email" />
 					</div> 
+					<div class="form-group">
+						<label>
+							Elder's Name
+						</label>
+						<input id="elder_name" name="elder_name" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="tech">Elder's Primary Access Point</label>
+						<select class="form-control" id="elder_tech" name="elder_tech">
+						  <option>Landline Phone</option>
+						  <option>Mobile Phone</option>
+						  <option>Television</option>
+						</select>
+					</div>
 					<button class="bloc-button btn btn-d btn-lg pull-left" type="submit">
 						Submit
 					</button>
