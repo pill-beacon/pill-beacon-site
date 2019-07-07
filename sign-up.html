@@ -21,9 +21,9 @@
 
     <script src="../assets/js/jquery-2.1.0.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
-<!--     <script src="../assets/js/blocs.js"></script>
+<!--     <script src="../assets/js/blocs.js"></script> -->
     <script src='../assets/js/jqBootstrapValidation.js'></script>
-	<script src='../assets/js/formHandler.js'></script> -->
+	<script src='../assets/js/formHandler.js'></script>
     <title>Sign Up | Pill Beacon</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58343903-11"></script>
@@ -99,23 +99,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					Reserve Your Spot
 				</h3>
 				<p>
-					Save your spot in line for our dashboard by filling out this form. You will be among the first to be notified by email when we release our platform. We will not spam or sell your email.
+					Save your spot in line to register for daily reminders by filling out this form. You will be among the first to be notified by email when we release our service. We will not spam or sell your email.
 				</p>
 			</div>
 			<div class="col-sm-8">
 				<form id="form-1">
 					<div class="form-group">
 						<label>
-							Name
+							Caregiver's Name
 						</label>
-						<input id="name" class="form-control" />
+						<input id="caregiver_name" name="caregiver_name" class="form-control" />
 					</div>
 					<div class="form-group">
 						<label>
-							Email
+							Caregiver's Email
 						</label>
-						<input id="email" class="form-control" type="email" />
+						<input id="caregiver_email" name="caregiver_email" class="form-control" type="email" />
 					</div> 
+					<div class="form-group">
+						<label>
+							Elder's Name
+						</label>
+						<input id="elder_name" name="elder_name" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="tech">Elder's Primary Access Point</label>
+						<select class="form-control" id="elder_tech" name="elder_tech">
+						  <option>Landline Phone</option>
+						  <option>Mobile Phone</option>
+						  <option>Television</option>
+						</select>
+					</div>
 					<button class="bloc-button btn btn-d btn-lg pull-left" type="submit">
 						Submit
 					</button>

@@ -10,17 +10,17 @@ $(function()
 	 	{
 			event.preventDefault(); // prevent default submit behaviour
 			
-			var processorFile = "./bin/"+$form.attr('id')+".php";
+			// var processorFile = "./bin/"+$form.attr('id')+".php";
 			var formData = {};
 
-			$form.find("input, textarea").each(function(e) // Loop over form objects build data object
+			$form.find("input, select").each(function(e) // Loop over form objects build data object
 			{		
 				formData[$(this).attr('id')] = $(this).val();	
 			});
 	
 			$.ajax({
-		        url: processorFile,
-		    	type: "POST",
+		        url: "https://script.google.com/macros/s/AKfycbx5gQExbe33QpffNNiNuHV7Hd6e07WLplCmKdfLiAquMz_ahENp/exec",
+		    	type: "GET",
 		    	data: formData,
 		    	cache: false,
 		    	success: function() // Success
