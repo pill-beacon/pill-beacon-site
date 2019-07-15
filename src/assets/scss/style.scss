@@ -683,7 +683,7 @@ iframe{
     
     .navbar .nav{
         padding-top: 0;
-        border-top:1px solid rgba(0,0,0,.2);
+        // border-top:1px solid rgba(0,0,0,.2);
         float:none!important;
     }
     .navbar.row{
@@ -706,9 +706,6 @@ iframe{
     .nav > li:hover{
         background:rgba(0,0,0,.08);
     }
-    #hero-bloc .navbar .nav{
-        background:rgba(0,0,0,.8);
-    }
     #hero-bloc .navbar .nav a{
         color:rgba(255,255,255,.6);
     }
@@ -724,6 +721,9 @@ iframe{
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+    }
+    #navSignUp {
+    	border-radius: 0px;
     }
     .navbar-brand img{
         max-height: 40px;
