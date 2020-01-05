@@ -19,7 +19,8 @@ paths.src = {
   js: paths.base.src + 'assets/js',
   images: paths.base.src + 'assets/images',
   videos: paths.base.src + 'assets/videos',
-  html: paths.base.src + 'html'
+  html: paths.base.src + 'html',
+  favicon: paths.base.src + 'assets/favicon'
 };
 
 paths.dist = {
@@ -28,7 +29,8 @@ paths.dist = {
   js: paths.base.dist + 'assets/js',
   images: paths.base.dist + 'assets/images',
   videos: paths.base.dist + 'assets/videos',
-  html: paths.base.dist + ''
+  html: paths.base.dist + '',
+  favicon: paths.base.dist + ''
 };
 
 /*
