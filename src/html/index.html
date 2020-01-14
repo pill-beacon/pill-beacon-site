@@ -26,23 +26,24 @@
     <script src="../assets/js/jquery-2.1.0.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
     <script src="../assets/js/blocs.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58343903-11"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58343903-11"></script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-58343903-11');
-
-      function runTag() {
-      	console.log('run tag')
-      	gtag('event', "view_item", {
-      	  'event_category': "engagement">,
-      	  'event_label': "Click to Airtable",
-      	  'value': 1>
-      	});
-      }
+    </script>
+    <script>
+		function runTag() {
+			console.log('run tag')
+			gtag('event', "view_item", {
+			  'event_category': "engagement">,
+			  'event_label': "Click to Airtable",
+			  'value': 1>
+			});
+		}
     </script>
 </head>
 <body>
