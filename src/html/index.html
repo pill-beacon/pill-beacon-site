@@ -34,6 +34,15 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-58343903-11');
+
+      function runTag() {
+      	console.log('run tag')
+      	gtag('event', "view_item", {
+      	  'event_category': "engagement">,
+      	  'event_label': "Click to Airtable",
+      	  'value': 1>
+      	});
+      }
     </script>
 </head>
 <body>
@@ -61,7 +70,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<a href="#" onclick="scrollToTarget('#bloc-3')">How It Works</a>
 					</li>
 					<li>
-						<a href="https://airtable.com/shrDvWkvIUFvAg3H7" id="navSignUp">Sign Up</a>
+						<a href="https://airtable.com/shrDvWkvIUFvAg3H7" onclick="runTag()" id="navSignUp">Sign Up</a>
 					</li>
 				</ul>
 			</div>
@@ -74,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</h1>
 			<h3 class="">
 				Making it easier for caregivers. Keeping our kūpuna healthy.
-			</h3><br /><br /><br /><a href="https://airtable.com/shrDvWkvIUFvAg3H7" class="btn btn-rd btn-pastel-orange btn-xl">Sign Up Now</a><a id="scroll-hero" class="btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
+			</h3><br /><br /><br /><a href="https://airtable.com/shrDvWkvIUFvAg3H7" onclick="runTag()" class="btn btn-rd btn-pastel-orange btn-xl">Sign Up Now</a><a id="scroll-hero" class="btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
 		</div>
 	</div>
 </div>
@@ -111,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</h1>
 				<p class=" mg-lg">
 					Everyday Pill Beacon will have a real, local human being make a personalized call to Grandma (or Grandpa) reminding her to take her medication and account for her general safety.  As caregivers ourselves, we understand the struggles of balancing a full-time job in addition to taking care of grandma. While we're at work, there's no one at home to remind Grandma to take her pills and check if she's okay. Pill Beacon makes it easy for caregivers to rest assured Grandma is safe and properly medicated.
-				</p><a href="https://airtable.com/shrDvWkvIUFvAg3H7" class="btn   btn-lg btn-rd btn-pastel-orange">Sign Up for Our Reminders</a>
+				</p><a href="https://airtable.com/shrDvWkvIUFvAg3H7" onclick="runTag()" class="btn   btn-lg btn-rd btn-pastel-orange">Sign Up for Our Reminders</a>
 			</div>
 		</div>
 	</div>
@@ -189,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					Caregiving is hard enough. We&rsquo;re here for you.
 				</h1>
 				<div class="text-center">
-					<a href="https://airtable.com/shrDvWkvIUFvAg3H7" class="btn  btn-rd btn-lg btn-pastel-orange">Sign Up</a>
+					<a href="https://airtable.com/shrDvWkvIUFvAg3H7" onclick="runTag()" class="btn  btn-rd btn-lg btn-pastel-orange">Sign Up</a>
 				</div>
 			</div>
 		</div>
